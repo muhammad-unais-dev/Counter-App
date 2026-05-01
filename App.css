@@ -44,3 +44,33 @@ button:hover {
 .reset-btn:hover {
   background: #4110c7;
 }
+
+form{
+   display: flex;
+   gap: 10px;
+   margin-bottom: 20px;
+}
+ input{
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  width: 200px;
+ }
+
+ input:focus{
+  border-color: #4110c7;
+
+ }
+
+ form button{
+  padding: 10px 15px;
+  background: #4b8fc7;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+ }
+ form button:hover{
+  background: #4b8fc7;
+ }
