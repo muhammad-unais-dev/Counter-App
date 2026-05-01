@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #80b3cf;
+}
+
+.app {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.counter-box {
+  background: rgb(104, 219, 239);
+  padding: 30px;
+  width: 250px;
+  margin: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(29, 195, 167, 0.9);
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #6813b1;
+  color: rgb(154, 127, 127);
+}
+
+button:hover {
+  background: #a904ce;
+}
+.reset-btn {
+  margin-top: 15px;
+  background: #5c0aea;
+}
+
+.reset-btn:hover {
+  background: #4110c7;
+}
